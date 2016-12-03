@@ -11,4 +11,3 @@ module Main (main) where
       fileHandle <- openFile (head fn) ReadMode
       contents <- hGetContents fileHandle
       putStr contents
-      
